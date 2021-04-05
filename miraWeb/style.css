@@ -3,19 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+.logo {
+  color: azure;
+}
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: chocolate;
+  background: rgba(17, 47, 49, 0.5);
 }
 .hero {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: black;
-  background-image: url(./tea.jpg);
+  background-image: url(./demo2.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+}
+.hero-heading {
+  font-size: 3.25rem;
+  font-weight: bold;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  color: rgba(7, 7, 7, 0.8);
+}
+.btn-danger {
+  background: rgba(7, 7, 7, 0.8);
+}
+.whyWe {
+  text-align: center;
 }
